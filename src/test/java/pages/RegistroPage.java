@@ -104,22 +104,22 @@ public class RegistroPage {
     }
 
     public boolean checkNewRegister( ){
-         return registroMap.registroConcluido.isDisplayed();
+        return registroMap.registroConcluido.isDisplayed();
     }
 
-    public void refresh(){
-        if (registroMap.emailAlreadyExists.isDisplayed() || registroMap.phoneAlreadyExists.isDisplayed()) {
-            registroMap.refresh.click();
-        }
-        else {
-            checkNewRegister();
-        }
-    }
-
-    public RegistroPage setUpload(CharSequence... value){
-        registroMap.uploadArquivo.sendKeys(value);
-        return this;
-    }
+//    public void refresh() {
+//        if (registroMap.emailAlreadyExists.isDisplayed() || registroMap.phoneAlreadyExists.isDisplayed()) {
+//            registroMap.refresh.click();
+//        }
+//        else {
+//            checkNewRegister();
+//        }
+//    }
+//
+//    public RegistroPage setUpload(CharSequence... value){
+//        registroMap.uploadArquivo.sendKeys(value);
+//        return this;
+//    }
 
 //    public boolean checkEmailFormat(){
 //        return registroMap.emailAlert.isDisplayed();

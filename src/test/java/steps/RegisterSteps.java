@@ -30,8 +30,8 @@ public class RegisterSteps {
 
         registroPage.setLastName("Proc");
         registroPage.setAddress("Rua Hermantino Coelho 743");
-        registroPage.setEmail("test+5@test.com");
-        registroPage.setPhone("1126119896");
+        registroPage.setEmail("test+6@test.com");
+        registroPage.setPhone("1126116896");
         registroPage.setGenderRadioButton("FeMale");
         registroPage.setHobbiesCheckbox("Movies");
         registroPage.setLanguageList("Filipino");
